@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "layouts": [
+    {
+      "id": "index",
+      "file": "index.html"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "no-reply",
+      "emailAdress": "no-reply@kkts.solutions",
+      "displayName": "FE Team"
+    }
+  ],
+  "endpoints": [
+    {
+      "templateId": "verify-email",
+      "endpoint": "verify"
+    },
+    {
+      "templateId": "reset-password-email",
+      "endpoint": "reset-password"
+    }
+  ],
+  "templates": [
+    {
+      "language": "en",
+      "items": [
+        {
+          "id": "verify-email",
+          "subject": "Verify your email and get started",
+          "body": "verify-email.en.html",
+          "addressId": "no-reply",
+          "layout": "index"
+        },
+        {
+          "id": "reset-password-email",
+          "subject": "Reset password",
+          "body": "reset-password.en.html",
+          "addressId": "no-reply",
+          "layout": "index"
+        }
+      ]
+    }
+  ]
+}
