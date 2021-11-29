@@ -4,6 +4,10 @@
     {
       "id": "index",
       "file": "index.html"
+    },
+    {
+      "id": "index2",
+      "file": "index2.html"
     }
   ],
   "addresses": [
@@ -40,6 +44,20 @@
           "body": "reset-password.en.html",
           "addressId": "no-reply",
           "layout": "index"
+        },
+        {
+          "id": "2fa-authentication-enabled",
+          "subject": "Two-factor authentication (2FA) enabled",
+          "body": "2fa-enabled.html",
+          "addressId": "no-reply",
+          "layout": "index2"
+        },
+        {
+          "id": "2fa-authentication-disabled",
+          "subject": "Two-factor authentication (2FA) disabled",
+          "body": "2fa-disabled.html",
+          "addressId": "no-reply",
+          "layout": "index2"
         }
       ]
     }
