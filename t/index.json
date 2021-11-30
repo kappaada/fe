@@ -58,6 +58,34 @@
           "body": "2fa-disabled.html",
           "addressId": "no-reply",
           "layout": "index2"
+        },
+        {
+          "id": "deposit-successfully",
+          "subject": "Deposit successfully",
+          "body": "deposit-successfully.html",
+          "addressId": "no-reply",
+          "layout": "index2"
+        },
+        {
+          "id": "withdraw-successfully",
+          "subject": "Withdraw successfully",
+          "body": "withdraw-successfully.html",
+          "addressId": "no-reply",
+          "layout": "index2"
+        },
+        {
+          "id": "transfer-money",
+          "subject": "Transfer successfully",
+          "body": "transfer-money.html",
+          "addressId": "no-reply",
+          "layout": "index2"
+        },
+        {
+          "id": "receive-money",
+          "subject": "Your wallet balance changed",
+          "body": "receive-money.html",
+          "addressId": "no-reply",
+          "layout": "index2"
         }
       ]
     }
