@@ -8,6 +8,10 @@
     {
       "id": "index2",
       "file": "index2.html"
+    },
+    {
+      "id": "index3",
+      "file": "index3.html"
     }
   ],
   "addresses": [
@@ -86,6 +90,13 @@
           "body": "receive-money.html",
           "addressId": "no-reply",
           "layout": "index2"
+        },
+        {
+          "id": "commission",
+          "subject": "Your commission for {period}",
+          "body": "commission.html",
+          "addressId": "no-reply",
+          "layout": "index3"
         }
       ]
     }
