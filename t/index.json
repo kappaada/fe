@@ -47,56 +47,64 @@
           "subject": "Reset password",
           "body": "reset-password.en.html",
           "addressId": "no-reply",
-          "layout": "index"
+          "layout": "index",
+          "sms": ""
         },
         {
           "id": "2fa-authentication-enabled",
           "subject": "Two-factor authentication (2FA) enabled",
           "body": "2fa-enabled.html",
           "addressId": "no-reply",
-          "layout": "index2"
+          "layout": "index2",
+          "sms": "Your Two-factor authentication (2FA) has been enabled."
         },
         {
           "id": "2fa-authentication-disabled",
           "subject": "Two-factor authentication (2FA) disabled",
           "body": "2fa-disabled.html",
           "addressId": "no-reply",
-          "layout": "index2"
+          "layout": "index2",
+          "sms": "Your Two-factor authentication (2FA) has been disabled."
         },
         {
           "id": "deposit-successfully",
           "subject": "Deposit successfully",
           "body": "deposit-successfully.html",
           "addressId": "no-reply",
-          "layout": "index2"
+          "layout": "index2",
+          "sms": "Success! {amount} deposited into your account."
         },
         {
           "id": "withdraw-successfully",
           "subject": "Withdraw successfully",
           "body": "withdraw-successfully.html",
           "addressId": "no-reply",
-          "layout": "index2"
+          "layout": "index2",
+          "sms": "Withdrawal confirmed! Funds are on their way. \nAmount: {amount}. \nAddress: {address}. \nNote: {note}."
         },
         {
           "id": "transfer-money",
           "subject": "Transfer successfully",
           "body": "transfer-money.html",
           "addressId": "no-reply",
-          "layout": "index2"
+          "layout": "index2",
+          "sms": "Transfer of {amount} to <{receiver}> successful."
         },
         {
           "id": "receive-money",
           "subject": "Your wallet balance changed",
           "body": "receive-money.html",
           "addressId": "no-reply",
-          "layout": "index2"
+          "layout": "index2",
+          "sms": "{amount} received from <{sender}>."
         },
         {
           "id": "commission",
           "subject": "Your commission for {period}",
           "body": "commission.html",
           "addressId": "no-reply",
-          "layout": "index3"
+          "layout": "index3",
+          "sms": "{amount} commission credited to your account."
         }
       ]
     }
