@@ -88,7 +88,7 @@
           "body": "transfer-money.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Transfer of {amount} to <{receiver}> successful."
+          "sms": "Transfer of {amount} to [{receiver}] successful."
         },
         {
           "id": "receive-money",
@@ -96,7 +96,7 @@
           "body": "receive-money.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "{amount} received from <{sender}>."
+          "sms": "{amount} received from [{sender}]."
         },
         {
           "id": "commission",
@@ -105,6 +105,38 @@
           "addressId": "no-reply",
           "layout": "index3",
           "sms": "{amount} commission credited to your account."
+        },
+        {
+          "id": "seller-removed-from-contract-self",
+          "subject": "Changes to Contract [{contractId}]",
+          "body": "seller-removed-from-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have been removed from the contract [{contractId}]."
+        },
+        {
+          "id": "seller-removed-from-contract",
+          "subject": "Changes to Contract [{contractId}]",
+          "body": "seller-removed-from-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "[{nickname}] has removed [{assignee}] from the contract [{contractId}]."
+        },
+        {
+          "id": "seller-allocated-to-contract-self",
+          "subject": "Changes to Contract [{contractId}]",
+          "body": "seller-allocated-to-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have been invited to the contract [{contractId}]."
+        },
+        {
+          "id": "seller-allocated-to-contract",
+          "subject": "Changes to Contract [{contractId}]",
+          "body": "seller-allocated-to-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "[{nickname}] has invited [{assignee}] to the contract [{contractId}]."
         }
       ]
     }
