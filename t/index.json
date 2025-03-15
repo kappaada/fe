@@ -107,28 +107,12 @@
           "sms": "{amount} commission credited to your account."
         },
         {
-          "id": "seller-removed-from-contract-self",
-          "subject": "Changes to Contract [{contractId}]",
-          "body": "seller-removed-from-contract-self.html",
-          "addressId": "no-reply",
-          "layout": "index2",
-          "sms": "You have been removed from the contract [{contractId}]."
-        },
-        {
-          "id": "seller-removed-from-contract",
-          "subject": "Changes to Contract [{contractId}]",
-          "body": "seller-removed-from-contract.html",
-          "addressId": "no-reply",
-          "layout": "index2",
-          "sms": "[{nickname}] has removed [{assignee}] from the contract [{contractId}]."
-        },
-        {
           "id": "seller-allocated-to-contract-self",
           "subject": "Changes to Contract [{contractId}]",
           "body": "seller-allocated-to-contract-self.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "You have been invited to the contract [{contractId}]."
+          "sms": "You have been invited to the contract [{contractId}] as a Seller by {assigner}."
         },
         {
           "id": "seller-allocated-to-contract",
@@ -136,7 +120,31 @@
           "body": "seller-allocated-to-contract.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "[{nickname}] has invited [{assignee}] to the contract [{contractId}]."
+          "sms": "[{assigner}] has invited [{assignee}] to the contract [{contractId}] as a Seller."
+        },
+        {
+          "id": "seller-rejected-contract",
+          "subject": "Changes to Contract [{contractId}]",
+          "body": "seller-rejected-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Seller [{actor}] has rejected the contract [{contractId}]."
+        },
+        {
+          "id": "seller-removed-from-contract-self",
+          "subject": "Changes to Contract [{contractId}]",
+          "body": "seller-removed-from-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have been removed from the contract [{contractId}] by [{assigner}]."
+        },
+        {
+          "id": "seller-removed-from-contract",
+          "subject": "Changes to Contract [{contractId}]",
+          "body": "seller-removed-from-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "[{assigner}] has removed [{assignee}](Seller) from the contract [{contractId}]."
         }
       ]
     }
