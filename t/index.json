@@ -122,7 +122,6 @@
           "layout": "index2",
           "sms": "[{assigner}] has extended an invitation to [{assignee}] to participate in contract [{contractId}] as a Arbitrator{position}."
         },
-
         {
           "id": "arbitrator-made-decision-buyer-upheld-seller-rejected-self",
           "subject": "Decision to Contract [{contractId}]",
@@ -155,7 +154,6 @@
           "layout": "index2",
           "sms": "[{actor}], the arbitrator{position}'s decision has been issued, determining that the Seller's position is upheld and the Buyer's position is rejected, in reference to contract [{contractId}]."
         },
-
         {
           "id": "arbitrator-removed-from-contract-self",
           "subject": "Changes to Contract [{contractId}]",
@@ -461,6 +459,30 @@
           "addressId": "no-reply",
           "layout": "index2",
           "sms": "Seller [{actor}] has withdrawn their request to cancel the contract [{contractId}]."
+        },
+        {
+          "id": "contract-completed",
+          "subject": "Congratulations on Contract [{contractId}] Completion!",
+          "body": "contract-completed.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Great news! The contract [{contractId}] is now complete."
+        },
+        {
+          "id": "contract-completed-for-upheld-party",
+          "subject": "Victory Upheld: Congratulations on Contract [{contractId}] Completion!",
+          "body": "contract-completed-for-upheld-party.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "We are pleased to inform you that the arbitration panel has issued its decision regarding Contract ID: [{contractId}]. Your claim was successful."
+        },
+        {
+          "id": "contract-completed-for-rejected-party",
+          "subject": "Regarding the Decision - Contract ID: [{contractId}] ",
+          "body": "contract-completed-for-rejected-party.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "We are writing to inform you that the arbitration panel has issued its decision regarding Contract ID: [{contractId}]. Your claim was not successful."
         }
       ]
     }
