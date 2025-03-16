@@ -107,12 +107,189 @@
           "sms": "{amount} commission credited to your account."
         },
         {
+          "id": "buyer-accepted-contract-self",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "buyer-accepted-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have accepted the contract [{contractId}]."
+        },
+        {
+          "id": "buyer-accepted-contract",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "buyer-accepted-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Buyer [{actor}] has accepted the contract [{contractId}]."
+        },
+        {
+          "id": "buyer-agreed-to-cancel-contract-self",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "buyer-agreed-to-cancel-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have agreed to cancel the contract [{contractId}]."
+        },
+        {
+          "id": "buyer-agreed-to-cancel-contract",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "buyer-agreed-to-cancel-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Buyer [{actor}] has agreed to cancel the contract [{contractId}]."
+        },
+        {
+          "id": "buyer-agreed-to-complete-contract-self",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "buyer-agreed-to-complete-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have agreed to complete the contract [{contractId}]."
+        },
+        {
+          "id": "buyer-agreed-to-complete-contract",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "buyer-agreed-to-complete-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Buyer [{actor}] has agreed to complete the contract [{contractId}]."
+        },
+        {
+          "id": "buyer-allocated-to-contract-self",
+          "subject": "Changes to Contract [{contractId}]",
+          "body": "buyer-allocated-to-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have been invited to the contract [{contractId}] as a Buyer by [{assigner}]."
+        },
+        {
+          "id": "buyer-allocated-to-contract",
+          "subject": "Changes to Contract [{contractId}]",
+          "body": "buyer-allocated-to-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "[{assigner}] has invited [{assignee}] to the contract [{contractId}] as a Buyer."
+        },
+        {
+          "id": "buyer-rejected-contract-self",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "buyer-rejected-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have rejected the contract [{contractId}]."
+        },
+        {
+          "id": "buyer-rejected-contract",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "buyer-rejected-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Buyer [{actor}] has rejected the contract [{contractId}]."
+        },
+        {
+          "id": "buyer-removed-from-contract-self",
+          "subject": "Changes to Contract [{contractId}]",
+          "body": "buyer-removed-from-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have been removed from the contract [{contractId}] by [{assigner}]."
+        },
+        {
+          "id": "buyer-removed-from-contract",
+          "subject": "Changes to Contract [{contractId}]",
+          "body": "buyer-removed-from-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "[{assigner}] has removed [{assignee}](Buyer) from the contract [{contractId}]."
+        },
+        {
+          "id": "buyer-requested-to-cancel-contract-self",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "buyer-requested-to-cancel-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have requested to cancel the contract [{contractId}]."
+        },
+        {
+          "id": "buyer-requested-to-cancel-contract",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "buyer-requested-to-cancel-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Buyer [{actor}] has requested to cancel the contract [{contractId}]."
+        }
+        ,
+        {
+          "id": "buyer-withdrew-cancellation-request-self",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "buyer-withdrew-cancellation-request-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have withdrawn the cancellation request of the contract [{contractId}]."
+        },
+        {
+          "id": "buyer-withdrew-cancellation-request",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "buyer-withdrew-cancellation-request.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Buyer [{actor}] has withdrawn the cancellation request of the contract [{contractId}]."
+        },
+        {
+          "id": "seller-accepted-contract-self",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "seller-accepted-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have accepted the contract [{contractId}]."
+        },
+        {
+          "id": "seller-accepted-contract",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "seller-accepted-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Seller [{actor}] has accepted the contract [{contractId}]."
+        },
+        {
+          "id": "seller-agreed-to-cancel-contract-self",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "seller-agreed-to-cancel-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have agreed to cancel the contract [{contractId}]."
+        },
+        {
+          "id": "seller-agreed-to-cancel-contract",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "seller-agreed-to-cancel-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Seller [{actor}] has agreed to cancel the contract [{contractId}]."
+        },
+        {
+          "id": "seller-agreed-to-complete-contract-self",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "seller-agreed-to-complete-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have agreed to complete the contract [{contractId}]."
+        },
+        {
+          "id": "seller-agreed-to-complete-contract",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "seller-agreed-to-complete-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Seller [{actor}] has agreed to complete the contract [{contractId}]."
+        },
+        {
           "id": "seller-allocated-to-contract-self",
           "subject": "Changes to Contract [{contractId}]",
           "body": "seller-allocated-to-contract-self.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "You have been invited to the contract [{contractId}] as a Seller by {assigner}."
+          "sms": "You have been invited to the contract [{contractId}] as a Seller by [{assigner}]."
         },
         {
           "id": "seller-allocated-to-contract",
@@ -123,8 +300,16 @@
           "sms": "[{assigner}] has invited [{assignee}] to the contract [{contractId}] as a Seller."
         },
         {
+          "id": "seller-rejected-contract-self",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "seller-rejected-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have rejected the contract [{contractId}]."
+        },
+        {
           "id": "seller-rejected-contract",
-          "subject": "Changes to Contract [{contractId}]",
+          "subject": "Updates to Contract [{contractId}]",
           "body": "seller-rejected-contract.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -145,6 +330,39 @@
           "addressId": "no-reply",
           "layout": "index2",
           "sms": "[{assigner}] has removed [{assignee}](Seller) from the contract [{contractId}]."
+        },
+        {
+          "id": "seller-requested-to-cancel-contract-self",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "seller-requested-to-cancel-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have requested to cancel the contract [{contractId}]."
+        },
+        {
+          "id": "seller-requested-to-cancel-contract",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "seller-requested-to-cancel-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Seller [{actor}] has requested to cancel the contract [{contractId}]."
+        }
+        ,
+        {
+          "id": "seller-withdrew-cancellation-request-self",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "seller-withdrew-cancellation-request-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have withdrawn the cancellation request of the contract [{contractId}]."
+        },
+        {
+          "id": "seller-withdrew-cancellation-request",
+          "subject": "Updates to Contract [{contractId}]",
+          "body": "seller-withdrew-cancellation-request.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "Seller [{actor}] has withdrawn the cancellation request of the contract [{contractId}]."
         }
       ]
     }
