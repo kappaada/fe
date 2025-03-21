@@ -128,7 +128,7 @@
           "body": "arbitrator-made-decision-buyer-upheld-seller-rejected-self.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Your decision has been issued, determining that the Buyer's position is upheld and the Seller's position is rejected, in reference to contract [{contractId}]."
+          "sms": "Your decision has been issued, determining that the buyer's position is upheld and the seller's position is rejected, in reference to contract [{contractId}]."
         },
         {
           "id": "arbitrator-made-decision-buyer-upheld-seller-rejected",
@@ -136,7 +136,7 @@
           "body": "arbitrator-made-decision-buyer-upheld-seller-rejected.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "[{actor}], the arbitrator{position}'s decision has been issued, determining that the Buyer's position is upheld and the Seller's position is rejected, in reference to contract [{contractId}]."
+          "sms": "[{actor}], the arbitrator{position}'s decision has been issued, determining that the buyer's position is upheld and the seller's position is rejected, in reference to contract [{contractId}]."
         },
         {
           "id": "arbitrator-made-decision-seller-upheld-buyer-rejected-self",
@@ -144,7 +144,7 @@
           "body": "arbitrator-made-decision-seller-upheld-buyer-rejected-self.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Your decision has been issued, determining that the Seller's position is upheld and the Buyer's position is rejected, in reference to contract [{contractId}]."
+          "sms": "Your decision has been issued, determining that the seller's position is upheld and the buyer's position is rejected, in reference to contract [{contractId}]."
         },
         {
           "id": "arbitrator-made-decision-seller-upheld-buyer-rejected",
@@ -152,7 +152,7 @@
           "body": "arbitrator-made-decision-seller-upheld-buyer-rejected.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "[{actor}], the arbitrator{position}'s decision has been issued, determining that the Seller's position is upheld and the Buyer's position is rejected, in reference to contract [{contractId}]."
+          "sms": "[{actor}], the arbitrator{position}'s decision has been issued, determining that the seller's position is upheld and the buyer's position is rejected, in reference to contract [{contractId}]."
         },
         {
           "id": "arbitrator-removed-from-contract-self",
@@ -204,7 +204,7 @@
         },
         {
           "id": "buyer-accepted-contract-self",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Contract Accepted: [{contractId}]",
           "body": "buyer-accepted-contract-self.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -212,15 +212,15 @@
         },
         {
           "id": "buyer-accepted-contract",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Buyer Accepted Contract: [{contractId}]",
           "body": "buyer-accepted-contract.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Buyer [{actor}] has accepted the contract [{contractId}]."
+          "sms": "The buyer [{actor}] has accepted the contract [{contractId}]."
         },
         {
           "id": "buyer-agreed-to-cancel-contract-self",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Cancellation Agreed: Contract [{contractId}]",
           "body": "buyer-agreed-to-cancel-contract-self.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -228,15 +228,15 @@
         },
         {
           "id": "buyer-agreed-to-cancel-contract",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Buyer Agrees to Cancel: Contract [{contractId}]",
           "body": "buyer-agreed-to-cancel-contract.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Buyer [{actor}] has agreed to cancel the contract [{contractId}]."
+          "sms": "The buyer [{actor}] has agreed to cancel the contract [{contractId}]."
         },
         {
           "id": "buyer-agreed-to-complete-contract-self",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Contract Completion Agreement: [{contractId}]",
           "body": "buyer-agreed-to-complete-contract-self.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -244,11 +244,11 @@
         },
         {
           "id": "buyer-agreed-to-complete-contract",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Buyer Agrees to Complete Contract: [{contractId}]",
           "body": "buyer-agreed-to-complete-contract.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Buyer [{actor}] has agreed to complete the contract [{contractId}]."
+          "sms": "The buyer [{actor}] has agreed to complete the contract [{contractId}]."
         },
         {
           "id": "buyer-allocated-to-contract-self",
@@ -267,8 +267,24 @@
           "sms": "[{assigner}] has extended an invitation to [{assignee}] to participate in contract [{contractId}] as a Buyer."
         },
         {
+          "id": "buyer-disagreed-to-cancel-contract-self",
+          "subject": "Contract [{contractId}] Cancellation Declined",
+          "body": "buyer-disagreed-to-cancel-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have declined the cancellation request for the contract [{contractId}]."
+        },
+        {
+          "id": "buyer-disagreed-to-cancel-contract",
+          "subject": "Contract [{contractId}] Cancellation Declined",
+          "body": "buyer-disagreed-to-cancel-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "The buyer [{actor}] has declined the cancellation request for the contract [{contractId}]."
+        },
+        {
           "id": "buyer-rejected-contract-self",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Contract Rejected: [{contractId}]",
           "body": "buyer-rejected-contract-self.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -276,11 +292,11 @@
         },
         {
           "id": "buyer-rejected-contract",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Buyer Rejected Contract: [{contractId}]",
           "body": "buyer-rejected-contract.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Buyer [{actor}] has rejected the contract [{contractId}]."
+          "sms": "The buyer [{actor}] has rejected the contract [{contractId}]."
         },
         {
           "id": "buyer-removed-from-contract-self",
@@ -300,7 +316,7 @@
         },
         {
           "id": "buyer-requested-to-cancel-contract-self",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Cancellation Request: Contract [{contractId}]",
           "body": "buyer-requested-to-cancel-contract-self.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -308,16 +324,16 @@
         },
         {
           "id": "buyer-requested-to-cancel-contract",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Buyer's Cancellation Request: Contract [{contractId}]",
           "body": "buyer-requested-to-cancel-contract.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Buyer [{actor}] has requested to cancel the contract [{contractId}]."
+          "sms": "The buyer [{actor}] has requested to cancel the contract [{contractId}]."
         }
         ,
         {
           "id": "buyer-withdrew-cancellation-request-self",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Withdrawal of Cancellation Request: Contract [{contractId}]",
           "body": "buyer-withdrew-cancellation-request-self.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -325,15 +341,15 @@
         },
         {
           "id": "buyer-withdrew-cancellation-request",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Buyer Withdraws Cancellation Request: Contract [{contractId}]",
           "body": "buyer-withdrew-cancellation-request.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Buyer [{actor}] has withdrawn their request to cancel the contract [{contractId}]."
+          "sms": "The buyer [{actor}] has withdrawn their request to cancel the contract [{contractId}]."
         },
         {
           "id": "seller-accepted-contract-self",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Contract Accepted: [{contractId}]",
           "body": "seller-accepted-contract-self.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -341,15 +357,15 @@
         },
         {
           "id": "seller-accepted-contract",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Seller Accepted Contract: [{contractId}]",
           "body": "seller-accepted-contract.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Seller [{actor}] has accepted the contract [{contractId}]."
+          "sms": "The seller [{actor}] has accepted the contract [{contractId}]."
         },
         {
           "id": "seller-agreed-to-cancel-contract-self",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Cancellation Agreed: Contract [{contractId}]",
           "body": "seller-agreed-to-cancel-contract-self.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -357,15 +373,15 @@
         },
         {
           "id": "seller-agreed-to-cancel-contract",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Seller Agrees to Cancel: Contract [{contractId}]",
           "body": "seller-agreed-to-cancel-contract.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Seller [{actor}] has agreed to cancel the contract [{contractId}]."
+          "sms": "The seller [{actor}] has agreed to cancel the contract [{contractId}]."
         },
         {
           "id": "seller-agreed-to-complete-contract-self",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Contract Completion Agreement: [{contractId}]",
           "body": "seller-agreed-to-complete-contract-self.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -373,11 +389,11 @@
         },
         {
           "id": "seller-agreed-to-complete-contract",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Seller Agrees to Complete Contract: [{contractId}]",
           "body": "seller-agreed-to-complete-contract.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Seller [{actor}] has agreed to complete the contract [{contractId}]."
+          "sms": "The seller [{actor}] has agreed to complete the contract [{contractId}]."
         },
         {
           "id": "seller-allocated-to-contract-self",
@@ -396,8 +412,24 @@
           "sms": "[{assigner}] has extended an invitation to [{assignee}] to participate in contract [{contractId}] as a Seller."
         },
         {
+          "id": "seller-disagreed-to-cancel-contract-self",
+          "subject": "Contract [{contractId}] Cancellation Declined",
+          "body": "seller-disagreed-to-cancel-contract-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You have declined the cancellation request for the contract [{contractId}]."
+        },
+        {
+          "id": "seller-disagreed-to-cancel-contract",
+          "subject": "Contract [{contractId}] Cancellation Declined",
+          "body": "seller-disagreed-to-cancel-contract.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "The seller [{actor}] has declined the cancellation request for the contract [{contractId}]."
+        },
+        {
           "id": "seller-rejected-contract-self",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Contract Rejected: [{contractId}]",
           "body": "seller-rejected-contract-self.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -405,11 +437,11 @@
         },
         {
           "id": "seller-rejected-contract",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Seller Rejected Contract: [{contractId}]",
           "body": "seller-rejected-contract.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Seller [{actor}] has rejected the contract [{contractId}]."
+          "sms": "The seller [{actor}] has rejected the contract [{contractId}]."
         },
         {
           "id": "seller-removed-from-contract-self",
@@ -429,7 +461,7 @@
         },
         {
           "id": "seller-requested-to-cancel-contract-self",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Cancellation Request: Contract [{contractId}]",
           "body": "seller-requested-to-cancel-contract-self.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -437,16 +469,15 @@
         },
         {
           "id": "seller-requested-to-cancel-contract",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Seller's Cancellation Request: Contract [{contractId}]",
           "body": "seller-requested-to-cancel-contract.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Seller [{actor}] has requested to cancel the contract [{contractId}]."
-        }
-        ,
+          "sms": "The seller [{actor}] has requested to cancel the contract [{contractId}]."
+        },
         {
           "id": "seller-withdrew-cancellation-request-self",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Withdrawal of Cancellation Request: Contract [{contractId}]",
           "body": "seller-withdrew-cancellation-request-self.html",
           "addressId": "no-reply",
           "layout": "index2",
@@ -454,11 +485,11 @@
         },
         {
           "id": "seller-withdrew-cancellation-request",
-          "subject": "Updates to Contract [{contractId}]",
+          "subject": "Seller Withdraws Cancellation Request: Contract [{contractId}]",
           "body": "seller-withdrew-cancellation-request.html",
           "addressId": "no-reply",
           "layout": "index2",
-          "sms": "Seller [{actor}] has withdrawn their request to cancel the contract [{contractId}]."
+          "sms": "The seller [{actor}] has withdrawn their request to cancel the contract [{contractId}]."
         },
         {
           "id": "contract-completed",
@@ -483,8 +514,7 @@
           "addressId": "no-reply",
           "layout": "index2",
           "sms": "We are writing to inform you that the arbitration panel has issued its decision regarding Contract ID: [{contractId}]. Your claim was not successful."
-        }
-        ,
+        },
         {
           "id": "contract-accepted-self",
           "subject": "Contract Accepted: [{contractId}]",
