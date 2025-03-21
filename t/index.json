@@ -478,11 +478,28 @@
         },
         {
           "id": "contract-completed-for-rejected-party",
-          "subject": "Regarding the Decision - Contract ID: [{contractId}] ",
+          "subject": "Regarding the Decision - Contract ID: [{contractId}]",
           "body": "contract-completed-for-rejected-party.html",
           "addressId": "no-reply",
           "layout": "index2",
           "sms": "We are writing to inform you that the arbitration panel has issued its decision regarding Contract ID: [{contractId}]. Your claim was not successful."
+        }
+        ,
+        {
+          "id": "contract-accepted-self",
+          "subject": "Contract Accepted: [{contractId}]",
+          "body": "contract-accepted-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "The contract [{contractId}] has been accepted by all parties."
+        },
+        {
+          "id": "contract-accepted",
+          "subject": "Contract Accepted: [{contractId}]",
+          "body": "contract-accepted.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "The contract [{contractId}] has been accepted by all parties."
         }
       ]
     }
