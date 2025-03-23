@@ -530,6 +530,22 @@
           "addressId": "no-reply",
           "layout": "index2",
           "sms": "The contract [{contractId}] has been accepted by all parties."
+        },
+        {
+          "id": "contract-cacelled-self",
+          "subject": "Contract Cancelled: [{contractId}]",
+          "body": "contract-cacelled-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "The contract [{contractId}] has been cancelled."
+        },
+        {
+          "id": "contract-cacelled",
+          "subject": "Contract Cancelled: [{contractId}]",
+          "body": "contract-cacelled.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "The contract [{contractId}] has been cancelled."
         }
       ]
     }
