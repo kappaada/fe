@@ -532,17 +532,17 @@
           "sms": "The contract [{contractId}] has been accepted by all parties."
         },
         {
-          "id": "contract-cacelled-self",
+          "id": "contract-cancelled-self",
           "subject": "Contract Cancelled: [{contractId}]",
-          "body": "contract-cacelled-self.html",
+          "body": "contract-cancelled-self.html",
           "addressId": "no-reply",
           "layout": "index2",
           "sms": "The contract [{contractId}] has been cancelled."
         },
         {
-          "id": "contract-cacelled",
+          "id": "contract-cancelled",
           "subject": "Contract Cancelled: [{contractId}]",
-          "body": "contract-cacelled.html",
+          "body": "contract-cancelled.html",
           "addressId": "no-reply",
           "layout": "index2",
           "sms": "The contract [{contractId}] has been cancelled."
