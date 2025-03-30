@@ -283,6 +283,22 @@
           "sms": "The buyer [{actor}] has declined the cancellation request for the contract [{contractId}]."
         },
         {
+          "id": "buyer-rated-seller-self",
+          "subject": "Contract [{contractId}] Finalized by You",
+          "body": "buyer-rated-seller-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You confirmed completion of contract [{contractId}]."
+        },
+        {
+          "id": "buyer-rated-seller",
+          "subject": "Contract [{contractId}] Finalized by Buyer",
+          "body": "buyer-rated-seller.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "The buyer [{actor}] confirmed completion of contract [{contractId}]."
+        },
+        {
           "id": "buyer-rejected-contract-self",
           "subject": "Contract Rejected: [{contractId}]",
           "body": "buyer-rejected-contract-self.html",
@@ -426,6 +442,22 @@
           "addressId": "no-reply",
           "layout": "index2",
           "sms": "The seller [{actor}] has declined the cancellation request for the contract [{contractId}]."
+        },
+        {
+          "id": "seller-rated-buyer-self",
+          "subject": "Contract [{contractId}] Finalized by You",
+          "body": "seller-rated-buyer-self.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "You confirmed completion of contract [{contractId}]."
+        },
+        {
+          "id": "seller-rated-buyer",
+          "subject": "Contract [{contractId}] Finalized by Seller",
+          "body": "seller-rated-buyer.html",
+          "addressId": "no-reply",
+          "layout": "index2",
+          "sms": "The seller [{actor}] confirmed completion of contract [{contractId}]."
         },
         {
           "id": "seller-rejected-contract-self",
