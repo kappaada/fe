@@ -17,7 +17,7 @@
   "addresses": [
     {
       "id": "no-reply",
-      "emailAdress": "no-reply@reciprocal-pro.com",
+      "emailAdress": "noreply@reciprocal-pro.com",
       "displayName": "Reciprocal"
     }
   ],
