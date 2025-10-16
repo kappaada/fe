@@ -17,8 +17,8 @@
   "addresses": [
     {
       "id": "no-reply",
-      "emailAdress": "noreply@reciprocal-pro.com",
-      "displayName": "Reciprocal"
+      "emailAdress": "noreplay@reciprocal-pro.com",
+      "displayName": "noreply"
     }
   ],
   "endpoints": [
